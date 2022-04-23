@@ -748,6 +748,7 @@ name = "ferilous_fluids"
 version = "0.1.0"
 dependencies = [
  "ggez",
+ "glam 0.8.7",
 ]
 
 [[package]]
@@ -847,7 +848,7 @@ dependencies = [
  "gfx_core",
  "gfx_device_gl",
  "gilrs",
- "glam",
+ "glam 0.20.5",
  "glutin",
  "glyph_brush",
  "image",
@@ -916,6 +917,15 @@ dependencies = [
  "khronos_api",
  "log",
  "xml-rs",
+]
+
+[[package]]
+name = "glam"
+version = "0.8.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b00572b5b10070ac495be20a25b4c8d379d20bcdec8ea0c870022b620ec79b20"
+dependencies = [
+ "mint",
 ]
 
 [[package]]
